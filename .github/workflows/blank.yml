@@ -1,15 +1,9 @@
 name: Python CLI Diagnostics Tests
 
-on:
-push:
-branches: ["main"]
-pull_request:
-branches: ["main"]
-workflow_dispatch:
+on:push:branches: ["main"] pull_request:branches:
+["main"]workflow_dispatch:
 
-jobs:
-test:
-runs-on: ubuntu-latest
+jobs:test:runs-on: ubuntu-latest
 
 steps:
   - name: Checkout repository
