@@ -32,4 +32,3 @@ uses: actions/checkout@v4
 
   - name: Test installed command
     run: diagnostics
-      
