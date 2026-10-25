@@ -1,0 +1,20 @@
+{
+    "python_version": "3.13.16",
+    "operating_system": "Linux",
+    "disk_space": {
+        "total_bytes": 115658190848,
+        "used_bytes": 22006845440,
+        "free_bytes": 93634568192
+    },
+    "environment_variables": {
+        "PATH_configured": true,
+        "VIRTUAL_ENV_configured": false
+    },
+    "developer_tools": {
+        "git_available": true
+    },
+    "configuration": {
+        "path": null,
+        "valid": true
+    }
+}
