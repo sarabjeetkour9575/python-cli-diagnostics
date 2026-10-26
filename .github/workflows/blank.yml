@@ -1,13 +1,13 @@
 name: Python CLI Diagnostics Tests
 
-'on': push: branches: [main] pull_request: branches: [main] workflow_dispatch:
-
-jobs: test: runs-on: ubuntu-latest steps: - name: 
-Checkout repository uses: actions/checkout@v4
-- name: Set up Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.12"
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
 
   - name: Run unit tests
     run: python -m unittest -v
